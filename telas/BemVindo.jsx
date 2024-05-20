@@ -1,4 +1,3 @@
-// screens/HomeScreen.js
 import React from 'react';
 import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
@@ -12,7 +11,7 @@ export default function HomeScreen({ navigation }) {
       <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('Previsao')}>
         <Text style={styles.buttonText}>Clique Aqui</Text>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('SobreNos')}>
         <Text style={styles.buttonText}>Sobre nós</Text>
       </TouchableOpacity>
     </View>

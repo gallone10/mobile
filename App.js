@@ -15,6 +15,7 @@ import BemVindo from './telas/BemVindo.jsx'
 import Previsao from './telas/Previsao.jsx'
 import Visionary from './telas/Visionary.jsx'
 import Solicitacao from './telas/Solicitacao.jsx'
+import SobreNos from './telas/SobreNos.jsx'
 
 const Stack = createStackNavigator();
 
@@ -34,7 +35,7 @@ const App = () => {
         <Stack.Screen name="Previsao" component={Previsao} />
         <Stack.Screen name="Visionary" component={Visionary} />
         <Stack.Screen name="Solicitacao" component={Solicitacao} />
-        
+        <Stack.Screen name="SobreNos" component={SobreNos} />
       </Stack.Navigator>
     </NavigationContainer>
   );
